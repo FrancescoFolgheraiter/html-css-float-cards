@@ -11,3 +11,21 @@
 /*
     GENERAL
 */
+
+
+/*
+    UTILITY
+*/
+.text-pink{
+    color:rgb(255, 65, 128);
+}
+.text-white{
+    color:white;
+}
+.text-aqua{
+    color:aqua;
+}
+
+.color-blue{
+    background-color: rgb(0, 0, 50);
+}
