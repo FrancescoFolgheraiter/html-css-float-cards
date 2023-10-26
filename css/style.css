@@ -69,6 +69,8 @@ h1{
 
 .card > * {
     float: left;
-    width:calc(100% /2);
-    margin:3px;
+}
+
+.columns a{
+    text-decoration: none;
 }
