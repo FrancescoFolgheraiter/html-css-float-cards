@@ -24,15 +24,11 @@ img{
     color:aqua;
 }
 
-.color-blue{
-    background-color: rgb(0, 0, 50);
-}
-
 /*
     GENERAL
 */
 html{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fredoka', sans-serif;
 }
 
 .clearfix::after {
@@ -56,18 +52,27 @@ h1{
     margin: 20px;
 }
 
-.columns > * {
+.columns > .card {
     float: left;
-    width: calc((100% / 3)-20px);
+    width: calc((100% / 3) - 20px);
     margin:10px;
     background-color: rgb(0, 0, 50);
 }
 
-.columns img {
-    width: 100px;
+.columns > .card > .card-img-container{
+    width:100px;
 }
 
-.card > * {
+.columns > .card > .card-img-container > img{
+    width:100%;
+    display:block;
+}
+.columns > .card > .card-info-container{
+    width:calc(100% - 100px);
+    height:100px;
+    padding:10px;
+}
+.columns > .card > * {
     float: left;
 }
 
